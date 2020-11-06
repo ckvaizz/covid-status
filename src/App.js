@@ -22,10 +22,11 @@ render(){
 
       <Router>
         
-          <Header/>
         
+      <Header/>
         <Switch>
           <Route exact path="/">
+          
             <India/>
           </Route>
           <Route path='/india'>
